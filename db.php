@@ -14,7 +14,7 @@ if (session_status() == PHP_SESSION_NONE) {
 // *** แก้ไขตรงนี้ ***
 $host = 'localhost';  // ใส่แค่ IP Address ห้ามมี https:// หรือ /
 $db   = 'items';
-$user = 'dekit';
+$user = 'items';
 $pass = 'bnccitemsconfig';
 $charset = 'utf8mb4';
 

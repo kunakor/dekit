@@ -12,7 +12,7 @@ if (session_status() == PHP_SESSION_NONE) {
 
 // 4. ตั้งค่าการเชื่อมต่อฐานข้อมูล
 // *** แก้ไขตรงนี้ ***
-$host = '110.78.30.118';  // ใส่แค่ IP Address ห้ามมี https:// หรือ /
+$host = 'localhost';  // ใส่แค่ IP Address ห้ามมี https:// หรือ /
 $db   = 'items';
 $user = 'dekit';
 $pass = 'bnccitemsconfig';

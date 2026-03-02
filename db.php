@@ -11,10 +11,10 @@ if (session_status() == PHP_SESSION_NONE) {
 }
 
 // 4. ตั้งค่าการเชื่อมต่อฐานข้อมูล
-$host = 'localhost';
-$db   = 'school_asset';
-$user = 'root';      // XAMPP ปกติใช้ root
-$pass = '';          // XAMPP ปกติรหัสว่าง
+$host = 'https://110.78.30.118/';
+$db   = 'items';
+$user = 'dekit';      // XAMPP ปกติใช้ root
+$pass = 'bnccitemsconfig';          // XAMPP ปกติรหัสว่าง
 $charset = 'utf8mb4';
 
 $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
